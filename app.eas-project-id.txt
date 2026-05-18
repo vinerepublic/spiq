@@ -1,0 +1,9 @@
+# To complete EAS setup, run this command manually:
+npx eas init
+
+# This will prompt you to create a project for @amantes/spiq
+# Say "yes" to create the project
+
+# After that, you can build with:
+npx eas build --platform ios --profile production
+npx eas build --platform android --profile production
