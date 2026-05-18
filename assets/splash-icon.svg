@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" rx="204.8" fill="url(#grad)"/>
+
+  <!-- Icon graphic - microphone symbol -->
+  <g transform="translate(512, 512)">
+    <!-- Microphone body -->
+    <rect x="-102.4" y="-256" width="204.8" height="307.2" rx="102.4" fill="white" opacity="0.95"/>
+
+    <!-- Microphone stand -->
+    <line x1="0" y1="102.4" x2="0" y2="256" stroke="white" stroke-width="30.72" opacity="0.95"/>
+    <line x1="-81.92" y1="256" x2="81.92" y2="256" stroke="white" stroke-width="30.72" opacity="0.95"/>
+
+    <!-- Sound waves -->
+    <path d="M -204.8 -153.6 Q -256 -102.4 -204.8 -51.2"
+          stroke="white" stroke-width="25.6" fill="none" opacity="0.7"/>
+    <path d="M 204.8 -153.6 Q 256 -102.4 204.8 -51.2"
+          stroke="white" stroke-width="25.6" fill="none" opacity="0.7"/>
+  </g>
+
+  
+</svg>
