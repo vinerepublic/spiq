@@ -905,7 +905,7 @@ class HttpOpenClawClient implements OpenClawClient {
       }
     }
 
-    return {
+    const conferenceSession = {
       id: String(payload.id ?? createId('voice')),
       conferenceId: String(payload.conferenceId ?? createId('conf')),
       sessionId,
@@ -930,11 +930,11 @@ class HttpOpenClawClient implements OpenClawClient {
 
     logger.voice('Conference session created', {
       sessionId,
-      conferenceId: result.conferenceId,
+      conferenceId: conferenceSession.conferenceId,
       agentCount: agentIds.length,
     });
 
-    return result;
+    return conferenceSession;
   }
 
   async addAgentToConference(
