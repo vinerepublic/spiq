@@ -71,6 +71,9 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     'expo-secure-store',
   ],
   extra: {
+    eas: {
+      projectId: '9766f22d-a37c-475a-8f7d-c709936b349b',
+    },
     defaultGatewayUrl:
       process.env.EXPO_PUBLIC_OPENCLAW_DEFAULT_GATEWAY_URL ?? '',
     enableMockMode:
