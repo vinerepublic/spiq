@@ -18,7 +18,8 @@
     },
     "production": {
       "env": {
-        "EXPO_PUBLIC_OPENCLAW_ENABLE_MOCK_MODE": "false"
+        "EXPO_PUBLIC_OPENCLAW_ENABLE_MOCK_MODE": "false",
+        "EXPO_PUBLIC_OPENCLAW_DEFAULT_GATEWAY_URL": "https://spiq-gateway.onrender.com"
       }
     }
   },
